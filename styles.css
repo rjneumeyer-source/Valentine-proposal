@@ -1,26 +1,26 @@
 body {
-  font-family: "Lobster", cursive; /* Change to a romantic cursive font */
-  background-color: #ffdde1;
+  font-family: "Lobster", cursive;
+  background: linear-gradient(180deg, #eaf4ff 0%, #ffffff 60%, #eaf4ff 100%);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   height: 100vh;
   margin: 0;
-  background: url("images/image.jpg") repeat;
   font-size: 35px;
-  color: rgb(255, 0, 174);
+  color: #0b2a4a; /* navy */
 }
-.hh {
-  -webkit-text-stroke: 2px #71004f;
-  font-weight: 900;
-}
-.pp {
-  -webkit-text-stroke: 2px #71004f;
 
-  font-size: 50px;
-  font-style: oblique;
+.hh, .pp {
+  -webkit-text-stroke: 0px transparent; /* remove outline */
+  color: #0b2a4a;
+}
+
+.pp {
+  font-size: 46px;
+  font-style: normal;
   font-weight: 800;
 }
+
 
 body .container {
   width: 100%;
@@ -30,9 +30,16 @@ body .container {
   align-items: center;
   text-align: center;
   background-color: transparent;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.Mainprompt {
+  background: rgba(255, 255, 255, 0.92);
+  border: 2px solid #b7dcff;
+  border-radius: 18px;
+  padding: 28px 22px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
 
 .image {
   max-width: 90%;
@@ -71,11 +78,11 @@ body .container {
 }
 
 .buttons button {
-  background-color: #ff4d79;
+  background-color: #3b82f6; /* blue */
   color: #fff;
   padding: 10px 30px;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   margin: 10px;
   font-size: 26px;
   cursor: pointer;
@@ -84,8 +91,9 @@ body .container {
 }
 
 .buttons button:hover {
-  background-color: #7c1f37;
+  background-color: #2563eb; /* darker blue */
 }
+
 
 .buttons {
   display: flex;
