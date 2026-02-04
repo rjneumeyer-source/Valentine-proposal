@@ -117,7 +117,7 @@ function showMessage(response) {
 
     // Update the text content, display the message, and change the image to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "AHH BINKY AND DINKY ARE VALENTINE'S <3 !!!!";
+    yesMessage.textContent = "YAY GRACIE AND ROBBIE ARE VALENTINES <3 !!!!";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/snoopywoodstockheart.gif";
